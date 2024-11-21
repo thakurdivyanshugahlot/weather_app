@@ -8,7 +8,7 @@ const App = () => {
   const [city, setCity] = useState(""); // Dynamic city input
   const [latLon, setLatLon] = useState({ latitude: null, longitude: null }); // Latitude and Longitude
 
-  const API_KEY_POSITIONSTACK = "ecba28245c4079a2ab3a494365ecac9d"; // Geocoding API Key (PositionStack)
+  const API_KEY_POSITIONSTACK = "a259ae91bc08ee2d155e71deb8431c88"; // Geocoding API Key (PositionStack)
   const API_KEY_OPENMETEO = ""; // Open-Meteo does not need an API key.
 
   // Fetch weather data from Open-Meteo API based on latitude and longitude
